@@ -16,6 +16,10 @@ struct ContentView: View {
             Text("Hello, world!")
         }
         .padding()
+        .onAppear() {
+            let myIngredient = Ingredient(name: "Sugar", quantity: 2.0, unit: Ingredient.Unit.tbs)
+            print(myIngredient.description)
+        }
     }
 }
 
