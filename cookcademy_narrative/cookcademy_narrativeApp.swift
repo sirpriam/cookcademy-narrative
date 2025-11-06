@@ -11,7 +11,7 @@ import SwiftUI
 struct cookcademy_narrativeApp: App {
     var body: some Scene {
         WindowGroup {
-            RecipesListView()
+            RecipeCategoryGridView()
         }
     }
 }
